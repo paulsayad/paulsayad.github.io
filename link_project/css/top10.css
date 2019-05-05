@@ -1,0 +1,175 @@
+/* CSS Document */
+
+body {
+	background-image: url(tiny_grid.png);
+	color: #000000;
+	margin: 0;
+	font-family: 'cloudlight';
+}
+
+@font-face {
+    font-family: 'cloudlight'; /*a name to be used later*/
+    src: url('../fonts/cloudlight.otf'); /*URL to font*/
+}
+
+img {
+	border-radius: 20px; /* Adjust radius of image to make it have a curved corner like this mac */
+	display: inline;
+	width: 200px;
+	height: 200px;
+	margin: 19px 20px 22px 20px;
+	float: left;
+	clear: left;
+}
+
+p {
+	text-align: center;
+}
+
+p.headerp {
+	text-align: center;
+	color: white;
+	padding: 0 200px 0 ;
+}
+
+p.footerp {
+	color: white;
+	height: 0;
+}
+
+h1,h3 {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	padding: 5px 0 0 0;
+}
+
+a.text-link {
+	text-decoration: underline;
+	color: #000000;
+	padding: 0 5px 0 5px;
+}
+
+a.text-link:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	text-decoration: none;
+}
+
+header {
+	background: #D3D3D3;
+	background-image: url(dark_brick_wall.png);
+	padding: 0 0 10px 0;
+}
+
+footer {
+	background-image: url(dark_brick_wall.png);
+	padding: 5px 0 0 0;
+	padding-top: 10px;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	margin: 233px 0 0px 0;
+}
+
+#wrapper {
+	width: 875px;
+	height: 3000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h3.cloudbold {
+	font-family: 'cloud-bold';
+	font-size: 20px;
+}
+
+@font-face {
+    font-family: 'cloud-bold'; /*a name to be used later*/
+    src: url('../fonts/cloud-bold.otf'); /*URL to font*/
+}
+
+.title {
+	text-align: center;
+	margin: 0 -78px 0 0;
+}
+
+.image {
+	margin: 0;
+	height: 241px;
+	width: 240px;
+}
+
+.paragraph {
+	height: 241px;
+	width: 709px;
+	margin: -243px 0 0 242px;
+}
+
+#footer {
+	margin: -11px 0 0px 0;
+}
+
+/* .image {
+	border: 1px solid red;
+}
+
+.title {
+	border: 1px solid blue;
+}
+
+.paragraph {
+	border: 1px solid green;
+}
+
+
+/*ul {
+    list-style-type: none;
+    margin: 0 0 -70px 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

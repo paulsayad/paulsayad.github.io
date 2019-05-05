@@ -1,0 +1,194 @@
+/* CSS Document */
+
+body {
+	background-image: url(starsky.jpg);
+	color: white;
+	margin: 0;
+	font-family: 'cloudlight';
+}
+
+@font-face {
+    font-family: 'cloudlight'; /*a name to be used later*/
+    src: url('../fonts/cloudlight.otf'); /*URL to font*/
+}
+
+img {
+	border-radius: 20px; /* Adjust radius of image to make it have a curved corner like this mac */
+	display: inline;
+	width: 800px;
+	height: 400px;
+	margin: 0 20px 20px 20px;
+	border: 3px solid white;
+}
+
+p {
+	text-align: center;
+	padding: 0 20px;
+	border: 0;
+	margin: 0;
+}
+
+p.headerp {
+	text-align: center;
+	color: white;
+	padding: 0 200px;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	padding: 5px 0 0 0;
+}
+
+a.text-link {
+	text-decoration: underline;
+	color: #000000;
+	padding: 0 5px 0 5px;
+}
+
+a.text-link:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	text-decoration: none;
+}
+
+header {
+	background: #D3D3D3;
+	background-image: url(starsky.jpg);
+	padding: 0 0 10px 0;
+}
+
+#wrapper {
+	width: 900px;
+	height: 200px;
+	padding: 5px 0 0 0;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+a.button {
+	border: 3px solid black;
+	background-image: url(ignasi.png);
+	text-decoration: none;
+	padding: 5px 5px 0 5px;
+	color: black;
+	border-radius: 5px;
+}
+
+a.button:hover {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px 5px 0 5px;
+	text-decoration: none;
+	background-image: url(0);
+}
+
+h2.cloudbold {
+	font-family: 'cloud-bold';
+	font-size: 30px;
+}
+
+@font-face {
+    font-family: 'cloud-bold'; /*a name to be used later*/
+    src: url('../fonts/cloud-bold.otf'); /*URL to font*/
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0 0 -70px 0;
+    padding: 0;
+    width: 200px;
+	background-image: url(starsky.jpg);
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(starsky.jpg);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.option1 {
+	border: 3px solid white;
+	margin: 16 500px 0 0;
+	background: white;
+	border-radius: 5px;
+}
+
+.option2 {
+	border: 3px solid white;
+	margin: -32px 0 0 500px;
+	background: white;
+	border-radius: 5px;
+}
+
+a.options,.tryagain {
+	text-decoration: none;
+	color: black;
+}
+
+h2.won {
+	text-decoration: underline;
+}
+
+.continue,.tryagain {
+	text-align: center;
+	border: 3px solid white;
+	background: white;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+a.continue {
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	margin: -4px 0 11px 0;
+	text-align: center;
+	border: 3px solid white;
+	background: white;
+	border-radius: 5px;
+	padding: 0 5px;
+	color: black;
+}
